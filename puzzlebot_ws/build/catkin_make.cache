@@ -1,0 +1,2 @@
+puzzlebot_autostart:vehicle_control:yolo_rec
+-DCATKIN_DEVEL_PREFIX=/home/jose/workspace/AutonomousVehicle/puzzlebot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jose/workspace/AutonomousVehicle/puzzlebot_ws/install -G Unix Makefiles
