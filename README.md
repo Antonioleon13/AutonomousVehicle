@@ -67,7 +67,7 @@ roslaunch puzzlebot_autostart puzzlebot_autostart.launch
 roslaunch vehicle_control vehicle_control.launch
 ``` -->
 
-## Key Features:
+## Key Features
 
 * Track Navigation: Our autonomous vehicle is equipped with sophisticated algorithms to autonomously follow a designated path, showcasing its agility and precision in real-world scenarios.
 
