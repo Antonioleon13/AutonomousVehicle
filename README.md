@@ -97,6 +97,7 @@ This ROS workspace includes the following packages:
    ```bash
    cd path/to/your/ros/workspace
    catkin_make
+   ```
 3. Source the setup script:
 ```bash
 source devel/setup.bash
