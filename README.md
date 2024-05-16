@@ -2,71 +2,6 @@
 
 Welcome to our Autonomous Vehicle project, a remarkable demonstration of modern robotics and computer vision technologies. In this repository, we present an autonomous vehicle capable of navigating a track and effectively detecting traffic signs and traffic lights in real-time. This project leverages the power of the Robot Operating System (ROS) framework, OpenCV, convolutional neural networks, and the YOLOv5 model, all elegantly implemented in Python.
 
-<!-- ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-This project was devolped using ROS melodic on Ubuntu 18.04
-
-Link to ROS melodic instalation: http://wiki.ros.org/melodic/Installation/Ubuntu
-```
-Give examples
-```
-
-### Installing
-
-Install OpenCV
-
-```
-sudo apt-get install libopencv-dev
-```
-
-Install python dependencies
-```
-pip install numpy matplotlib
-```
-Install Yolov5 dependencies
-```
-git clone https://github.com/ultralytics/yolov5.git
-cd yolov5
-pip install -U -r requirements.txt
-```
-
-## Running the tests
-
-
-### Initialize ROS workspace
-
-```
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/src
-catkin_init_workspace
-cd ~/catkin_ws
-catkin_make
-source devel/setup.bash
-```
-
-### Clone and build repository
-
-
-```
-cd ~/catkin_ws/src
-git clone https://github.com/your-username/your-autonomous-vehicle-project.git
-cd ~/catkin_ws
-source devel/setup.bash
-catkin_make
-```
-
-### Launch ROS nodes
-
-```
-roslaunch puzzlebot_autostart puzzlebot_autostart.launch
-
-roslaunch vehicle_control vehicle_control.launch
-``` -->
-
 ## Key Features
 
 * Track Navigation: Our autonomous vehicle is equipped with sophisticated algorithms to autonomously follow a designated path, showcasing its agility and precision in real-world scenarios.
@@ -86,10 +21,6 @@ This ROS workspace includes the following packages:
 1. **puzzlebot_autostart**: Manages the startup sequence for the puzzlebot.
 2. **vehicle_control**: Handles control algorithms for the puzzlebot, including line following and response to traffic signs.
 3. **yolo_rec**: Contains the YOLOv5 package for traffic sign detection.
-
-## Launch Files
-1. **puzzlebot_autostart.launch**: Launches the startup sequence for the puzzlebot.
-2. **vehicle_control.launch**: Launches control algorithms for the puzzlebot.
 
 ## Getting Started
 1. Clone this repository into your ROS workspace's `src` directory.
