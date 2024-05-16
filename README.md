@@ -80,3 +80,36 @@ roslaunch vehicle_control vehicle_control.launch
 * YOLOv5: We utilize the YOLOv5 model, a state-of-the-art deep learning framework, for object detection, making our system highly efficient and capable.
 * Python: The entire project is coded in Python, making it accessible and adaptable for a wide range of developers and researchers.
 
+
+## Packages
+This ROS workspace includes the following packages:
+1. **puzzlebot_autostart**: Manages the startup sequence for the puzzlebot.
+2. **vehicle_control**: Handles control algorithms for the puzzlebot, including line following and response to traffic signs.
+3. **yolo_rec**: Contains the YOLOv5 package for traffic sign detection.
+
+## Launch Files
+1. **puzzlebot_autostart.launch**: Launches the startup sequence for the puzzlebot.
+2. **vehicle_control.launch**: Launches control algorithms for the puzzlebot.
+
+## Getting Started
+1. Clone this repository into your ROS workspace's `src` directory.
+2. Navigate to your ROS workspace and build the packages:
+   ```bash
+   cd path/to/your/ros/workspace
+   catkin_make
+3. Source the setup script:
+```bash
+source devel/setup.bash
+```
+4. Launch the puzzlebot startup sequence:
+```bash
+roslaunch puzzlebot_autostart puzzlebot_autostart.launch
+```
+5. Launch the vehicle control:
+``` bash
+roslaunch vehicle_control vehicle_control.launch
+```
+
+## Demo
+[![Demo del Proyecto](http://img.youtube.com/vi/bmP49zlKMyg/0.jpg)](https://www.youtube.com/watch?v=bmP49zlKMyg)
+
