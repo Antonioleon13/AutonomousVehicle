@@ -1,4 +1,4 @@
-# Autonomous vehicle navigation
+# Autonomous vehicle navigation with ROS Noetic
 
 Welcome to our Autonomous Vehicle project, a remarkable demonstration of modern robotics and computer vision technologies. In this repository, we present an autonomous vehicle capable of navigating a track and effectively detecting traffic signs and traffic lights in real-time. This project leverages the power of the Robot Operating System (ROS) framework, OpenCV, convolutional neural networks, and the YOLOv5 model, all elegantly implemented in Python.
 
